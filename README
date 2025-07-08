@@ -27,16 +27,16 @@ The processor is built with the following five pipeline stages:
 
 ## Features
 
--  RV32I base instruction set support  
--  Classic 5-stage pipeline architecture  
--  Hazard detection and data forwarding  
--  Stall logic for load-use and control hazards  
--  Branch/jump resolution in the ID stage  
--  Modular, synthesizable Verilog code  
--  Simulation testbenches and waveform generation
+- RV32I base instruction set support  
+- Classic 5-stage pipeline architecture  
+- Data forwarding for hazard mitigation  
+- Stall handling for load-use and control hazards  
+- Branch and jump instruction support  
+- Modular Verilog design with testbench support
 
 ---
 
 ## Project Structure
+
 
 
