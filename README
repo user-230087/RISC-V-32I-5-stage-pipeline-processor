@@ -1,1 +1,42 @@
+# 🚀 5-Stage Pipelined RISC-V Processor (RV32I)
+
+This project is a Verilog implementation of a 32-bit RISC-V processor based on the RV32I instruction set architecture. The processor follows a classic 5-stage pipeline: **IF, ID, EX, MEM, WB** — enabling instruction-level parallelism, performance efficiency, and modular design.
+
+---
+
+## 🧠 Architecture Overview
+
+The processor is built with the following five pipeline stages:
+
+1. **Instruction Fetch (IF)**  
+   - Fetches instruction from instruction memory using the PC.
+
+2. **Instruction Decode (ID)**  
+   - Decodes the instruction, reads source registers, and computes immediate values.
+
+3. **Execute (EX)**  
+   - Performs ALU operations or computes effective addresses.
+
+4. **Memory Access (MEM)**  
+   - Accesses data memory for load/store instructions.
+
+5. **Write Back (WB)**  
+   - Writes results back to the register file.
+
+---
+
+## ✅ Features
+
+- ✅ RV32I base instruction set support  
+- ✅ Classic 5-stage pipeline architecture  
+- ✅ Hazard detection and data forwarding  
+- ✅ Stall logic for load-use and control hazards  
+- ✅ Branch/jump resolution in the ID stage  
+- ✅ Modular, synthesizable Verilog code  
+- ✅ Simulation testbenches and waveform generation
+
+---
+
+## 📁 Project Structure
+
 
