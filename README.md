@@ -90,9 +90,4 @@ The project includes:
 
 This project closely follows the architecture, datapath, and control flow outlined in the above textbook.
 
----
-
-## 📜 License
-
-This project is open-source under the [MIT License](LICENSE).
 
