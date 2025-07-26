@@ -61,7 +61,7 @@ The project includes:
 
 ## 📈 Sample Outputs (from Single-Cycle Simulation)
 
-![Waveform Screenshot](waveform/single_cycle_waveform.png)
+![Waveform Screenshot](results/simulation_results.png)
 
 ---
 
